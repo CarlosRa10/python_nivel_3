@@ -5,6 +5,7 @@
 # el segundo indica hasta donde pero sin contar el ultimo numero
 #y el tercer argumento indica cada cuanto caracteres se va a selecionar nuestro fragmento
 #inicio:fin:paso
+#mi_texto = [inicio_busqueda :  limite_busqueda - 1 :  saltos]
 texto = "ABCDEFGHIJKLM"
 fragmento = texto[2:10:2]
 print(fragmento)
