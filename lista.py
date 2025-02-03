@@ -14,7 +14,7 @@ print(resultado)
 #las listas pueden alterar sus elementos
 
 mi_lista3 = mi_lista + mi_lista2
-mi_lista3[0] = "Alpha"
+mi_lista3[0] = "Alpha" #con las listas se pueden alterar sus elementos, los strings no
 print(mi_lista3)
 mi_lista3.append("g") #Agregar un elemnto a la lista original
 print(mi_lista3)
@@ -30,6 +30,11 @@ print(lista)
 
 lista.reverse()#dar vuelta el orden alfabetico
 print(lista)
+
+#ordenar de forma descendente
+listaorden = [5,2,3,6]
+listaorden.sort(reverse=True)
+print(listaorden)
 
 ###EXAMEN###
 
