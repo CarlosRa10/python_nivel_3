@@ -1,4 +1,4 @@
-#Concepto o plabara clave : y un valor asociado a esa clave
+#Concepto o palabara clave : y un valor asociado a esa clave
 #diccionario = {Clave : Valor, clave2 : valor2}
 #es para almacenar valores a los que puedas acceder sin conocer su ubicación exacta
 
