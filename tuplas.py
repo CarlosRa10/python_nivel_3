@@ -1,5 +1,6 @@
 #Las tuplas es una colección de elementos inmutables
 #ocupan menos espacio en memoria a comparación de una lista (eficiencia)
+#Sirven para crear esctucturas que no se van a modificar es decir, son apruebas de daños
 mi_tuple = (1,2,3,4) #Se pueden poner incluso sin parentesis ()
 print(type(mi_tuple))
 print(mi_tuple)
