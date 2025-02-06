@@ -47,3 +47,27 @@ print("BUSCANDO LA PALABRA PYTHON")
 buscar_python = 'python' in texto
 dic = {True:"si",False:"no"}
 print(f"La palabra python {dic[buscar_python]} se encuentra en el texto")
+
+
+'''ingreso_texto_usuario = list(input('Ingrese un texto: ').lower())
+print(ingreso_texto_usuario)
+lista_letras = list(input('Eliga tres letra: ').lower())
+list(lista_letras)
+print(type(lista_letras))
+print(lista_letras)
+print(f"La letra {lista_letras[0]} se repite {ingreso_texto_usuario.count(lista_letras[0])} veces ")
+print(f"La letra {lista_letras[1]} se repite {ingreso_texto_usuario.count(lista_letras[1])} veces ")
+print(f"La letra {lista_letras[2]} se repite {ingreso_texto_usuario.count(lista_letras[2])} veces ")
+list(ingreso_texto_usuario)
+print(ingreso_texto_usuario)
+print(f"El texto introducido por el usuario tiene {len(ingreso_texto_usuario)} letras")
+print(f"La primera letra del texto es {ingreso_texto_usuario[0]}")
+print(f"La ultima letra del texto es {ingreso_texto_usuario[-1]}")
+normal ="".join(ingreso_texto_usuario[:])
+#print(normal)
+revez = "".join(ingreso_texto_usuario[::-1])
+print(f"El texto invertido se ve asi:\n{revez}")
+piton = "python" in normal
+dic = {True:"si",False:"no"}
+print(piton)
+print(f"La palabra 'Python' {dic[piton]} se ncuenta en el texto")'''
